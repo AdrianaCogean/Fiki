@@ -81,135 +81,107 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <h2 class="section-heading">Piața țintă</h2>
-            <p>TODO</p>
+            <p>Platforma noastră se adresează unor două categorii de oameni, care se pot suprapune:</p>
+            <ul>
+              <li>Clienți (care au nevoie de task-uri îndeplinite)</li>
+              <li>Prestatori de servicii (care îndeplinesc task-uri)</li>
+            </ul>
+
+            <h4>Piața țintă pentru clienți</h4>
+
+            <p>Deoarece inițial vrem să lansăm platforma local (în București), iar pe măsură ce ne dezvoltăm să ne extindem la alte orașe mai mari din România, plecăm de la populația totală a orașului, care este de <b>2 121 794</b> persoane [1]. Dintre acestea, conform INS, <b>88,4%</b> folosesc internetul în regiunea București-Ilfov [2], ceea ce înseamnă că în București sunt aproximativ 2.121.794 * 88,4% = <b>1.875.665</b> utilizatori de internet.<br>
+            Considerăm de asemenea că doar adulții vor folosi aplicația (deoarece au de efectuat plăți din conturile personale), care reprezintă aproximativ 75% din totalul populației Bucureștiului [3], deci putem aproxima grosier (în ipoteza că utilizatorii de internet și vârsta ar fi variabile independente) că piața în București este de 1.875.655 * 75% = <b>1.406.741</b> persoane.<br>
+            Dintre aceștia, totuși, cel mai probabil este ca cei care au un venit stabil (sunt angajați) să folosească mai des astfel de servicii. Numărul de angajați în București la sfârșitul lunii august 2018 este de <b>1.016.394</b> [4]. </p>
+            <p>Deși oricare dintre aceste persoane ar putea fi la un moment dat utilizatori ai platformei noastre (conform validării de la Milestone 2, aproape 99% dintre oameni au avut nevoie cel puțin o dată de un meseriaș), este greu de aproximat câți clienți sunt disponibili să apeleze la acest tip de platformă pentru rezolvarea problemelor lor. De aceea, vom păstra acest număr ca o limită superioară a pieței țintă din București.</p>
+
+            <h4>Piața țintă pentru prestatorii de servicii</h4>
+
+            <p>Prestatorii de servicii pornesc de la numărul stabilit precedent (numărul de adulți din București, utilizatori de internet), dar se evidențiază două segmente care sunt mai dispuse să presteze servicii:</p>
+            <ol>
+              <li>Persoane angajate cu salariu minim pe economie</li>
+              <li>Șomeri</li>
+            </ol>
+
+            <p>1. Numărul de persoane angajate în România cu salariu minim este de aproximativ 46% din totalul de angajați [5], ceea ce ar corespunde unui număr de 1.016.394 * 46% = <b>467.541</b> angajați. Deși în realitate salariile sunt mai mari în București decât în celelalte regiuni ale țării, costurile de trai sunt de asemenea mai mari, deci considerăm că numărul acesta este reprezentativ pentru persoanele cu un venit scăzut și care este foarte posibil să își caute o sursă de venit suplimentară.</p>
+            <p>2. Numărul de șomeri din București este de <b>17.106</b> angajați (numărul este preluat dintr-o statistică a ANOFM în Septembrie 2018 [6]). </p>
+
+            <p>[1] <a href="http://www.bucuresti.insse.ro/">http://www.bucuresti.insse.ro/</a>
+              <br>[2] <a href="https://www.agerpres.ro/economie/2016/12/05/ins-romania-are-10-6-milioane-utilizatori-de-internet-cu-varste-intre-16-si-74-de-ani-in-2016-10-46-46">https://www.agerpres.ro/economie/2016/12/05/ins-romania-are-10-6-milioane-utilizatori-de-internet-cu-varste-intre-16-si-74-de-ani-in-2016-10-46-46</a>
+              <br>[3] <a href="http://www.rpl2011.djsct.ro/inceput.php?cod=1&codj=40">http://www.rpl2011.djsct.ro/inceput.php?cod=1&codj=40</a>
+              <br>[4] <a href="http://www.business24.ro/administratie/stiri-administratie/salariul-mediu-net-in-bucuresti-a-trecut-de-3-400-de-lei-1599116">http://www.business24.ro/administratie/stiri-administratie/salariul-mediu-net-in-bucuresti-a-trecut-de-3-400-de-lei-1599116</a>
+              <br>[5] <a href="http://www.economica.net/aproape-jumatate-dintre-angajatii-din-romania-castiga-salariul-minim-studiu_155710.html">http://www.economica.net/aproape-jumatate-dintre-angajatii-din-romania-castiga-salariul-minim-studiu_155710.html</a>
+              <br>[6] <a href="http://www.bucuresti.anofm.ro/content/Situatia%20statistica%20a%20somajului%20(total%20someri%20femei%20in%20nein%20rata)%20in%20perioada%202010-2018.pdf">http://www.bucuresti.anofm.ro/content/Situatia%20statistica%20a%20somajului%20(total%20someri%20femei%20in%20nein%20rata)%20in%20perioada%202010-2018.pdf</a></p>
 
             <h2 class="section-heading">Competitori</h2>
-            <p>TODO</p>
+            <p>În urma validării de la Milestone 2, am identificat următorii competitori:</p>
+            <ul>
+               <li><b>reparatot.ro</b>
+                <br>Oferă servicii prin zugravi, tâmplari, lăcătuși, electricieni și instalatori.
+                <br>Se suprapun cu noi doar pe câteva categorii de servicii, dar contactul nu se face direct cu o persoană, ci cu întreaga companie. Au și o aplicație pe telefon. Nu au totuși un rating foarte bun pe website (3 stele) și toate detaliile legate de task sunt făcute prin telefon, nu prin website.</li>
+               <li><b>OLX</b>
+                <br>OLX este cel mai popular competitor în zona de servicii de tip <i>freelance</i>. După ce mercador.ro a fost cumpărat de OLX, iar apoi tocmai.ro a fost de asemenea cumpărat de aceeași companie, OLX a obținut monopolul pe piețe de acest tip. Deși OLX nu este concentrat pe servicii, ci mai mult pe produse, există o secțiune de servicii.
+                <br>Avantajele platformei noastre provin din faptul că suntem concentrați pe servicii, avem un sistem de rating și încredere mai bun și inițiativa poate fi luată și de cel care are nevoie de un serviciu.</li>
+               <li><b>eNevoie.ro</b>
+                <br>Această platformă este aproape un TaskRabbit de România, ceea ce este foarte interesant este că nu este folosit deloc. Probabil dacă mai mulți oameni știau de el, ar fi fost o platformă foarte folositoare. Pe de o parte, Alexa.com nici nu știe să îl încadreze ca trafic, deoarece este prea mic. Pe de altă parte, niciun utilizator nu a scris că ar fi căutat un prestator de serviciu pe acest website, am aflat de el dintr-un comentariu la un post în care ne promovam ideea.</li>
+               <li><b>Detoatepentrutoti.ro</b>
+                <br>Acesta este un website pentru anunțuri. Nu este doar de servicii, dar are o rubrică de servicii. Este costisitor ca timp și ca efort să găsești ceva care să se plieze pe nevoia ta.</li>
+               <li><b>Pagini / grupuri pe rețele de socializare</b>
+                <br>Există un număr mare de pagini / grupuri în care diverși meseriași (și nu numai) postează anunțuri cu serviciile pe care le oferă, sau anumiți oameni postează ce au nevoie. Lipsa centralizării și a unui sistem de recenzii pentru servicii fac această opțiune să nu fie foarte atractivă. Avantajul acestei metode spre deosebire de altele este că poți să îți descrii nevoia ta și să fii contactat de un meseriaș, ceea ce vrem și noi să oferim, prin faptul că inițiativa poate fi luată de cerere și nu numai de ofertă, cum este cazul platformelor enumerate mai sus.</li>
+               <li><b>Companii specializate pe anumite servicii</b>
+                <br>Acestea sunt diverse, dar în general prețurile sunt mai mari și există un efort suplimentar în contactarea firmelor și analizarea felului în care acestea pot (sau descoperirea că nu pot) răspunde nevoilor tale. De asemenea, acestea în general prestează servicii mai complexe decât ce ne propunem noi să oferim prin platforma noastră în general.</li>
+            </ul>
 
             <h2 class="section-heading">Cota de piață</h2>
-            <p>TODO</p>
+            <p>Ne dorim ca în <b>primul an</b> să ajungem la 1.000 utilizatori ai platformei. Aceasta înseamnă o cotă de piață de <b>0.098%</b></p>
+            <p>În <b>al doilea an</b>, dorim să înzecim numărul de utilizatori și să ajungem la 10.000 utilizatori ai platformei. Aceasta înseamnă o cotă de piață de <b>0.983%</b></p>
+            <p>În <b>al treilea an</b> ne propunem să dublăm numărul de utilizatori din București și să ajungem la 20.000 utilizatori. Aceasta înseamnă o cotă de piață de <b>1.967%</b>.</p>
+            <p>În următorii doi ani <b>(al patrulea și al cincilea)</b> ne propunem să dublăm în fiecare an numărul de utilizatori din București și să ajungem la 80.000 utilizatori. Aceasta înseamnă o cotă de piață de <b>3.937%</b>, respectiv de <b>7.87%</b>.</p>
 
             <h2 class="section-heading">Valoarea pe piață</h2>
-            <p>TODO</p>
+            <p>Pentru a calcula valoarea pe care o vor aduce utilizatorii platformei în următorii 5 ani, vom înmulți numărul utilizatorilor cu un profit mediu de pe urma fiecăruia. De asemenea, luăm în calcul și extinderea în mai multe orașe pe parcursul celor cinci ani, de aceea vom adăuga un multiplicator de extindere și în alte orașe decât București.</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Utilizatori</th>
+                  <th scope="col">Profit / an</th>
+                  <th scope="col">Multiplicator extindere</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
 
-            <p>Am observat că în România nu există o modalitate eficientă de a găsi pe cineva <b>rapid</b> și <b>eficient</b> care să îndeplinească anumite sarcini, fie din cauza <b>lipsei de timp</b>, fie din lipsa <b>experienței în domeniu</b>.</p>
-
-            <p>În același timp, există oameni (de exemplu studenți, persoane cu salarii foarte mici sau șomeri) care ar dori să lucreze fie <b>în timpul liber</b>, fie <b>pe o durată nelimitată</b>, dar având <b>flexibilitatea</b> de a lucra fără a fi angajați la o companie, pentru a face niște <b>bani în plus</b>. În prezent, este complicat să îți găsești de lucru rapid și pe termen scurt.</p>
-
-            <h2 class="section-heading">Soluția</h2>
-            <p>Soluția noastră este o platformă în care să poți schimba timp pe bani și bani pe timp. Mai exact, orice utilizator se poate afla de ambele părți ale pieței (cerere și ofertă de task-uri).</p>
-
-            <h4>1. Spui ce ai nevoie</h4>
-            <p>Atunci când un utilizator are un task de făcut, el pune un anunț pe platformă în care dă detalii legate de:</p>
-            <ul>
-                 <li>ce trebuie făcut</li>
-                 <li>când trebuie făcut</li>
-                 <li>câți bani este dispus să ofere pentru acel task</li>
-            </ul>
-
-            <h4>2. Te punem în legătură cu cine știe să îți rezolve problema</h4>
-            <p>Ulterior, el poate vedea o listă de utilizatori care și-au anunțat dinainte disponibilitatea pentru task-uri din categoria cerută (<i style="color:blue">această opțiune a fost adăugată în urma validării de la M2</i>), în acea zonă și pentru acea categorie de prețuri. Astfel, cel care are nevoie de task-ul îndeplinit poate contacta direct una dintre aceste persoane.</p>
-            <p>Dacă nu este multumit de niciuna dintre aceste opțiuni (sau dacă nu există astfel de persoane), acesta poate să <i>publice</i> anunțul către toți utilizatorii platformei și oricine îi poate face o ofertă special pentru task-ul respectiv. Pe măsură ce vin ofertele, persoana care a inițiat cererea poate alege oferta care i se pare cea mai bună, în funcție de prețul și profilul utilizatorilor și să intre în contact cu persoana respectivă.</p>
-
-            <h4>3. Rezolvi problema</h4>
-            <p>Odată ce intră în contact cele două părți, se pot stabili detalii legate de lucrare și de preț, iar în urma unui acord, prețul este confirmat pe platformă.<br>Suma aceasta va fi extrasă din contul clientului care a cerut task-ul și va fi blocată în siguranță.<br>După ce task-ul este efectuat, cel care a îndeplinit sarcina va cere suma de bani convenită, care îi va fi livrată în urma confirmării de către cel care a cerut task-ul că acesta a fost îndeplinit.</p>
-
-            <p> Există deja soluții asemănătoare in alte tari, cele mai notabile fiind: <p>
-              <a style="font-size: 18pt" href="http://taskrabit.com">TaskRabbit</a><br>
-              <a style="font-size: 18pt" href="http://airtasker.com">AirTasker</a><br>
-            </p>
-
-            <p> Ambele soluții funcționează doar pe plan regional, TaskRabbit în Statele Unite și UK, iar AirTasker în Australia și de curând și în câteva orașe din Statele Unite.</p>
-
-            <p> TaskRabbit funcționează numai pe modelul în care disponibilitatea prestatorilor de servicii este preanunțată. AirTasker, în schimb, funcționează numai pe modelul în care disponibilitatea prestatorilor de servicii este anunțată doar la cerere. Modelul pe care îl propunem noi este o combinație a celor două modele. </p>
-
-            <h2 class="section-heading">Segmente de clienți</h2>
-            <p>Există două categorii de clienți, deși aceste două categorii se pot suprapune: cei care au nevoie de servicii și cei care oferă servicii.</p>
-
-            <h6>Cei care au nevoie de servicii</h4>
-            <ul>
-               <li>Persoane ocupate, cu salariu acceptabil</li>
-               <li>Persoane care au nevoie să îndeplinească sarcini pe care nu știu / nu vor să le facă</li>
-            </ul>
-            <h6>Cei care oferă servicii</h4>
-            <ul>
-               <li>Persoane neangajate</li>
-               <li>Studenți / tineri care au nevoie de bani</li>
-               <li>Persoane care vor un job flexibil</li>
-               <li>Persoane care vor să facă bani extra față de job în timpul liber</li>
-            </ul>
-
-            <h2 class="section-heading">Competiție</h2>
-            <p> În piața din România nu există nicio platformă / companie care să ofere strict serviciile pe care le oferim noi, dar sunt mai multe platforme cu care ne suprapunem pe anumite piețe: </p>
-            <h5> Meseriași </h5>
-            <h6>Competitori</h6>
-            <ul>
-               <li>reparatot.ro</li>
-               <li>OLX</li>
-               <li>eNevoie.ro</li>
-               <li>Detoatepentrutoti.ro</li>
-               <li>Pagini / grupuri pe rețele de socializare</li>
-               <li>Companii specializate pe anumite servicii</li>
-            </ul>
-            <h6>Avantaje în competiție</h6>
-            <ul>
-               <li><b>Metrici de încredere</b> (rating, seriozitate)
-                <br> Platformele de mai sus, deși unele au sistem de rating (în stele), nu determină utilizatorii să le folosească, astfel încât majoritatea prestatorilor de servicii nu au nici scor, nici recenzii.
-                <br> Deoarece toate serviciile se fac prin intermediul nostru, vom solicita notarea calității serviciilor și vom avea un scor de seriozitate care va reprezenta procentul de lucrări care au fost încheiate cu succes.</li>
-               <li><b>Fără anunțuri învechite</b>
-                <br> Pe aceste platforme sunt multe anunțuri care nu mai sunt actuale.
-                <br> Pe platforma noastră vom verifica periodic relevanța anunțurilor.</li>
-               <li><b>Mai rapid și mai ușor</b>
-                <br> Pe platforme precum OLX sunt foarte multe anunțuri și trebuie să le verifici pe fiecare în parte și să vezi dacă meseriașul respectiv este disponibil.
-                <br> Prin platforma noastră există posibilitatea de a alege să îi lași pe meseriași să ia inițiativa și să îți dea o ofertă specifică pentru ce ai tu de făcut, iar apoi dintre ofertele primite să o alegi pe cea care îți convine cel mai mult.</li>
-            </ul>
-            <h5>Alte task-uri</h5>
-            <h6>Competitori</h6>
-            <ul>
-               <li>OLX</li>
-               <li>eNevoie.ro</li>
-               <li>Detoatepentrutoti.ro</li>
-               <li>Pagini / grupuri pe rețele de socializare</li>
-            </ul>
-            <h6>Avantaje în competiție</h6>
-            <ul>
-               <li><b>Metrici de încredere</b> (vezi mai sus)
-               <li><b>Fără anunțuri învechite</b> (vezi mai sus)
-               <li><b>Posibilitatea de a cere servicii nonconformiste</b>
-                <br> Plaja de servicii este foarte mare și nu poate fi niciodată acoperită doar prin anunțuri (de exemplu, să sortezi pe culori 50kg de piese lego).
-                <br> De aceea, pe platforma noastră oricine poate să își posteze nevoia lui și prestatorii de servicii se pot arăta disponibili pentru aceasta.</li>
-               <li><b>Fără angajament pe termen lung</b>
-               <br>Dacă în majoritatea timpului nu ai timp să prestezi servicii, platformele menționate mai sus nu te pot ajuta, deoarece nu are sens să postezi un anunț că ești disponibil să lucrezi pentru altcineva atâta timp cât majoritatea timpului ești ocupat.
-                <br>Pe UndesMulți.ro poți să îți cauți task-uri de lucru doar atunci când ai timp.</li>
-            </ul>
-
-            <h3 class="section-heading">Metrici cheie</h2>
-            <p> Succesul platformei este direct proporțional cu următoarele metrici: </p>
-            <ul>
-               <li><b>Numărul de utilizatori ai platformei</b>
-                <br> Cu cât numărul de utilizatori este mai mare, cu atât crește potențial atât cifra de afaceri, cât și satisfacția utilizatorilor, deoarece există șansă mai mare să găsească ajutorul potrivit</li>
-               <li><b>Numărul zilnic de task-uri completate</b>
-                <br> Această metrică arată cât din potențialul ce rezultă din metrica anterioară este materializat.</li>
-               <li><b>Raportul între task-uri completate și task-uri cerute</b>
-                <br> Această metrică prezintă în ce măsură prestatorii de servicii reușesc să îndeplinească cererile.</li>
-               <li><b>Nota medie acordată de clienți prestatorilor de servicii</b>
-                <br> Nota medie acordată de clienți măsoară calitatea serviciilor, care are ca rezultat satisfacția și încrederea clienților și, în final, refolosirea platformei de către aceștia.</li>
-               <li><b>Scorul mediu de seriozitate</b>
-                <br> Acest scor măsoară câte task-uri sunt îndeplinite în urma încheierii unui contract. Dacă scorul este mic, trebuie luate măsuri pentru detectarea și prevenirea prestatorilor de servicii neserioși în a mai prelua task-uri.</li>
-            </ul>
-
-            <h2 class="section-heading">Structura costurilor</h2>
-            <ul>
-               <li><b>Cercetare și dezvoltare</b>
-                <br> Dezvoltarea platformei, întreținere servere</li>
-               <li><b>Marketing</b>
-                <br> Promovarea platformei pe segmentele de clienți identificate anterior</li>
-            </ul>
-
-            <h2 class="section-heading">Fluxuri de venit</h2>
-            <p> Pentru a crește siguranța și a facilita interacțiunea între utilizatori, toate <u>plățile vor fi efectuate prin intermediul platformei noastre</u>.
-            <br> Deoarece toate plățile vor fi efectuate prin intermediul platformei noastre, vom percepe o <b>taxă de 15%</b> pe orice serviciu. <br>Am preluat acest procent de la TaskRabbit și AirTasker, care îl folosesc de asemenea în urma unor studii ale pieței de servicii. Înainte de lansarea platformei, ne vom consulta și cu niște persoane din domeniul financiar pentru a ne asigura că taxa este potrivită în comparație cu taxele care sunt percepute de competitorii noștri (dorim să oferim servicii la prețuri mai mici decât companiile care oferă servicii similare pe anumite segmente de task-uri).</p>
-            <p> O altă posibilă sursă de venit pe care o vom lua în calcul este <b>promovarea</b> unor prestatori de serviciu în căutările clienților, sau promovarea unui task cerut de o persoană prin notificări adiționale către posibili prestatori (de exemplu, un mesaj pe WhatsApp).</p>
           </div>
         </div>
       </div>
